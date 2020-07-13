@@ -1,0 +1,29 @@
+using system;
+namespace LargestNumber
+ {
+   class Program
+ {
+         static void Main(string[] args)
+      {
+         int number1, number2, number3;
+         number1 = 10;
+         number2 = 20;
+         number3 = 50;
+         if (number1 > number2)
+	{
+         if (number1 > number3)
+	   {
+               Console.Write("Number one is the largest!\n");
+           } 
+	else 
+	   {
+               Console.Write("Number three is the largest!\n");
+           }
+        }
+       else if (number2 > number3)
+       Console.Write("Number two is the largest!\n");
+       else
+       Console.Write("Number three is the largest!\n");
+     }
+   }
+}

@@ -1,0 +1,20 @@
+using system;
+namespace ValueExchange
+{
+	class Program
+	{
+	   static void main(string[] args)
+	  {
+             int number1, number2, temp;
+	     number1=20;
+	     number2=40;
+	     Console.WriteLine("Number 1:"+ number1 + "Number2" + number2);
+	     Console.WriteLine("after exchange");
+	     temp=number1;
+	     number1=number2;
+	     number2=temp;
+	     Console.WriteLine("Number 1:"+ number1 + "Number2" + number2);
+	   }
+        }	
+	     
+}
